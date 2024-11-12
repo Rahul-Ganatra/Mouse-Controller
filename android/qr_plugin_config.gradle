@@ -1,0 +1,15 @@
+allprojects {
+    afterEvaluate { project ->
+        if (project.hasProperty('android')) {
+            android {
+                namespace "com.example.qr_code_scanner"
+                compileSdkVersion 33
+                defaultConfig {
+                    minSdkVersion 21
+                    targetSdkVersion 33
+                }
+            }
+        }
+    }
+}
+
