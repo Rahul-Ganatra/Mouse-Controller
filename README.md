@@ -1,16 +1,8 @@
-# mouse_controller
+Mobile Motion Mouse Controller
+This project enables users to control their laptop's mouse cursor using the motion of a mobile device. By utilizing the accelerometer and gyroscope data from a smartphone, the laptop cursor moves in real time, reflecting the movement of the mobile device.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features
+Real-Time Control: Move your laptop cursor with your phone's motion.
+Smooth Movement: Adjustable sensitivity and smoothing for accurate control.
+Cross-Platform Communication: Uses WebSocket protocol for seamless mobile-to-laptop interaction.
+Customizable: Modify sensitivity, smoothing factors, and other parameters as needed.
